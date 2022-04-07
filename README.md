@@ -1,6 +1,8 @@
 # Sudoku Checker
 
-The purpose of this exercise is to code a simple sudoku resolver.
+The purpose of this exercise is to code a simple **sudoku checker**.
+
+That is, a program that **tells us if a sudoku solution is right or wrong**.
 
 From Wikipedia:
 > Sudoku (数独, sūdoku, digit-single) (/suːˈdoʊkuː, -ˈdɒk-, sə-/, originally called Number Place)[1] is a logic-based,[2][3] combinatorial[4] number-placement puzzle. In classic sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid (also called "boxes", "blocks", or "regions") contain all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a single solution.
@@ -29,8 +31,8 @@ In this repo you have some interesting resources:
 
 * `data/right.csv` contains a CSV file with a right solved sudoku.
 * `data/wrong.csv` contains a CSV file with a wrong solved sudoku.
-* `app.php` it's an entrypoint to execute a sudoku validation. Feel free to change it as you need.
-* `src/SudokuChecker.php` it's a class intended to be the sudoku checker. Feel free to change it as you need.
+* `main.py` it's an entrypoint to execute a sudoku validation. Feel free to change it as you need.
+* `SudokuChecker.py` it's a class intended to be the sudoku checker. Feel free to change it as you need.
 
 Feel free to install new third-party dependencies if you need it, except (obviously) for that ones which perform sudoku validations ;)
 
